@@ -3,12 +3,14 @@
   "files": [],
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types",
+      "./node_modules/vuetify/types"
+    ],
     "strict": true,
     "sourceMap": true,
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    },
     "types": ["vite/client","vuetify", "vue-router"]
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]

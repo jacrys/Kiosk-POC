@@ -15,11 +15,11 @@ onMounted(() => {
 
     const map = new Map ({
         container: 'map',
-        // style: 'https://www.openhistoricalmap.org/map-styles/main/main.json',
+        style: 'https://www.openhistoricalmap.org/map-styles/main/main.json',
         // style: 'https://www.openhistoricalmap.org/map-styles/rail/rail.json',
         // style: 'https://www.openhistoricalmap.org/map-styles/japanese_scroll/ohm-japanese-scroll-map.json',
         // style: 'https://www.openhistoricalmap.org/map-styles/woodblock/woodblock.json',
-        style: '/streets-v12.json',
+        // style: '/streets-v12.json',
         attributionControl: {
             customAttribution: '<a href="https://www.openhistoricalmap.org/">OpenHistoricalMap</a>',
         },
