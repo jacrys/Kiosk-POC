@@ -1,0 +1,32 @@
+{
+  "name": "kiosk",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@openhistoricalmap/maplibre-gl-dates": "^1.2.1",
+    "@studiometa/vue-mapbox-gl": "^2.7.0",
+    "axios": "^1.7.9",
+    "mapbox-gl": "^3.9.4",
+    "maplibre-gl": "^5.1.0",
+    "vue": "^3.5.13",
+    "vue-mapbox-ts": "^0.9.10",
+    "vue-router": "^4.5.0",
+    "vuetify": "^3.7.8"
+  },
+  "devDependencies": {
+    "@types/vue-router": "^2.0.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.6.2",
+    "vite": "^5.0.0",
+    "vite-plugin-ruby": "^5.1.0",
+    "vue-tsc": "^2.2.0"
+  }
+}
