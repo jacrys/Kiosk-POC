@@ -8,7 +8,7 @@
     >
       <v-list>
         <v-list-item
-          prepend-avatar=" /gcc.png"
+          prepend-avatar="/gcc.png"
           title="Greenwood Kiosk"
         ></v-list-item>
       </v-list>
