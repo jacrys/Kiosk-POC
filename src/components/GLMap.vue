@@ -4,7 +4,7 @@ import { MapboxMap } from '@studiometa/vue-mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 const accessToken ='pk.eyJ1Ijoia2NsZXdpcyIsImEiOiJ0MkF4dTV3In0.x4ialkeBLyILvKlWOLxNzQ';
-const style = 'https://www.openhistoricalmap.org/map-styles/main/main.json';
+const style = 'mapbox://styles/mapbox/streets-v11';
 
 const mbMap = ref();
 const map = computed(() => mbMap.value?.map);
@@ -22,11 +22,6 @@ export default {
             type: String,
             default: style,
         },
-    },
-    onMounted() {
-        map.attributionControl = {
-            customAttribution: '<a href="https://www.openhistoricalmap.org/">OpenHistoricalMap</a>'
-        }
     },
 };
 

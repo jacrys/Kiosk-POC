@@ -44,17 +44,10 @@ interface CensusMap {
       year: string
 }
 
-const CensusMaps = ref<CensusMap[]>([]);
-
-onMounted(async () => {
-    try {
-        const response = await axios.get<CensusMap[]>('http://localhost:3000/maps');
-        CensusMaps.value = response.data;
-    }
-    catch (error) {
-        console.error('Error fetching Maps:', error)
-    }
-});
-
+const CensusMaps = ref<CensusMap[]>([
+  { id: 1, name: '1910', year: '1910' },
+  { id: 2, name: '1920', year: '1920' },
+  { id: 3, name: 'Current', year: 'current' }
+]);
 
 </script>
