@@ -8,5 +8,12 @@ export default defineConfig({
     port: 8000, // 🔧 Change this to your desired port number
     host: true, // 🌐 Ensures the server is accessible from the network
     strictPort: true, // 🚫 Prevents the port from changing if it’s in use
+  },
+  build: {
+    rollupOptions: {
+      external: [
+        '/vite.svg',
+      ]
+    }
   }
 })
