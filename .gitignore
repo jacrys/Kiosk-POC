@@ -2,3 +2,5 @@
 /.vscode/*
 /.github/*
 /.bundle/*
+/.github/dependabot.yml
+/.vscode/extensions.json
