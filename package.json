@@ -15,6 +15,7 @@
     "axios": "^1.7.9",
     "mapbox-gl": "^3.9.4",
     "maplibre-gl": "^5.1.0",
+    "maplibre-gl-style-flipper": "^1.0.7",
     "vue": "^3.5.13",
     "vue-mapbox-ts": "^0.9.10",
     "vue-router": "^4.5.0",
