@@ -1,6 +1,9 @@
 /node_modules
+/node_modules/*
 /.vscode/*
 /.github/*
 /.bundle/*
 /.github/dependabot.yml
 /.vscode/extensions.json
+/dist
+/dist/*
